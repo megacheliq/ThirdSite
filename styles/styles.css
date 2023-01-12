@@ -1,0 +1,500 @@
+@font-face {   font-family: HelveticaNeue;   src: url(../fonts/HelveticaRoman.ttf);}@font-face {   font-family: HelveticaBold;    src: url(../fonts/HelveticaBold.ttf);}@font-face {   font-family: PTSans;   src: url(../fonts/PTsans.ttf);}@font-face {font-family: Parangon;src: url(../fonts/Parangon530C.ttf);}@font-face {font-family: uftara;src: url(../fonts/Futura/FuturaMediumC.ttf);}@font-face {   font-family: FuturaBold;   src: url(../fonts/FuturaBold.otf);}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.4mm;  
+}
+body {
+    overflow-x: hidden;
+}
+.screen1 {
+    background: url(../img/IMG_3644.png);
+    width: 100%;
+    height: 810px;
+    background-size: cover;
+    text-align: center;
+}
+.backop {
+    background-color: rgba(48, 50, 99, 0.57);
+    width: 100%;
+    height: 100%;
+}
+h1 {
+    letter-spacing: 0.4mm;
+    margin: 0 auto;
+    width: 1177px;
+    font-family: Parangon;
+    color: white;
+    padding-top: 192px;
+    font-size: 48px;
+    line-height: 72px;
+}
+.Hopis {
+    font-family: PTSans;
+    letter-spacing: 0.65mm;
+    padding-top: 20px;
+    color: white;
+    margin: 0 auto;
+    width: 906px;
+    line-height: 36px;
+    font-size: 24px;
+}
+.Hblocks {
+    padding-top: 63px;
+    margin: 0 auto;
+    display: flex;
+    gap: 59px;
+    width: 870px;
+}
+a {
+    font-family: uftara;
+    text-decoration: none;
+    color: black;
+}
+.Hblocks nav {
+    text-align: center;
+    width: 251px;
+    height: 160px;
+    border: white solid 2px;
+}
+.Hblocks nav p:nth-child(1) {
+    padding-top: 45px;
+    font-family: Parangon;
+    color: white;
+    font-size: 48px;
+}
+.Hblocks nav p:nth-child(2) {
+    font-family: PTSans;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0.5mm;
+}
+ul {
+    gap: 37px;
+    list-style-type: none;
+    display: flex;
+    font-size: 30px;
+    margin-top: 35px;
+    margin-bottom: 29px;
+}
+ul li a:hover {
+    color: #f6ae48;
+}
+.navigate {
+    align-items: center;
+    display: flex;
+    justify-content: end;
+    padding-right: 335px;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.25);
+}
+.we {
+    background: url(../img/WE.png);
+    width: 919.84px;
+    height: 295.0px;
+    background-repeat: no-repeat;
+    font-family: PTSans;
+    margin: 130px 130px 0px 130px;
+}
+.we p {
+    padding: 35px 0px 0px 90px;
+    line-height: 30px;
+    font-size: 20px;
+}
+.block1 {
+    margin: 0 auto;
+    width: 1440px;
+    display: flex;
+}
+.STUD {
+    padding: 210px 0px 0px 100px;
+    font-family: HelveticaBold;
+    font-size: 48px;
+}
+.block2 {
+    margin: 0 auto;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.zagl {
+    font-size: 20.45px;
+    font-weight: bold;
+    line-height: 25.57px;
+    padding-top: 12px;
+}
+.ops {
+    line-height: 25px;
+    font-size: 15px;
+    padding-top: 14px;
+}
+.block2 div {
+    padding: 13px 18px 15px 18px;
+}
+.block2 div:nth-child(1) .pic {
+    background: url(../img/rocket19.png);
+    width: 30px;
+    height: 58px;
+    padding: 0px;
+}
+.block2 div:nth-child(2) .pic {
+    background: url(../img/mobile209.png);
+    width: 28px;
+    height: 45px;
+    padding: 0px;
+}
+.block2 div:nth-child(3) .pic {
+    background: url(../img/lifeline5.png);
+    width: 54px;
+    height: 44px;
+    padding: 0px;
+}
+.block2 div:nth-child(3) {
+    color: white;
+}
+.block2 div:nth-child(3) {
+    background: #f6ae48;
+}
+.block3 {
+    margin-top: 260px;
+    background: url(../img/block3back.png);
+    text-align: center;
+    background-size: cover;
+}
+.credo {
+    letter-spacing: 0.9mm;
+    margin: 0 auto;
+    width: 1177px;
+    font-family: HelveticaBold;
+    color: white;
+    padding-top: 115px;
+    font-size: 48px;
+    line-height: 72px;
+}
+.block3ops {
+    font-family: PTSans;
+    letter-spacing: 0.1mm;
+    padding-top: 40px;
+    color: white;
+    margin: 0 auto;
+    line-height: 36px;
+    font-size: 24px;
+    padding-bottom: 160px;
+}
+.shest {
+    background: url(../img/shestr.png);
+    width: 1440px;
+    height: 525px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding-left: 60px;
+    margin-top: -45px;
+}
+.razrab {
+    padding: 130px 0px 0px 70px;
+    font-family: Parangon;
+    font-size: 55px;
+    color: white;
+}
+.block4 {
+    justify-content: center;
+}
+.block4blocks {
+    padding-top: 60px;
+    margin: 0 auto;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+}
+.b11 {
+    background: url(../img/b41.png);
+    width: 366px;
+    height: 315px;
+    background-size: cover;
+}
+.b12 {
+    background: url(../img/b42.png);
+    width: 366px;
+    height: 315px;
+    background-size: cover;
+}
+.b13 {
+    background: url(../img/b43.png);
+    width: 366px;
+    height: 315px;
+    background-size: cover;
+}
+.b4zagl {
+    padding: 75px 74px 5px 37px;
+    font-family: FuturaBold;
+    font-size: 50px;
+    color: white;
+}
+.polosk {
+    margin-left: 37px;
+    width: 258.16px;
+    height: 1px;
+    background: white;
+}
+.z2 {
+    font-size: 45px;
+}
+.block4 button {
+    background-color: transparent;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    padding: 10px 11px;
+}
+.bt1 {
+    border: 2px solid #00b9e7;
+}
+.bt2 {
+    border: 2px solid #ffcb00;
+}
+.bt3 {
+    border: 2px solid #66bf0d;
+}
+.d1, .d3, .d2 {
+    display: flex;
+    align-items: center;
+    margin: 35px 0px 0px 40px;
+}
+.d2 {
+    margin: 100px 0px 0px 40px;
+}
+.block5 {
+    padding-top: 200px;
+    display: flex;
+}
+.block7 {
+    padding-top: 145px;
+    display: flex;
+    padding-bottom: 155px;
+}
+.strkk {
+    background: url(../img/strlk.png);
+    width: 32px;
+    height: 33px;
+    margin-left: 60px;
+}
+.b5zagl {
+    background: url(../img/BETHEFIRST.png);
+    width: 597.82px;
+    height: 78.02px;
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;
+    margin: 50px 0px 0px 349px;
+}
+.bl7 {
+    background: url(../img/ADAPTATE.png);
+    background-repeat: no-repeat;
+    width: 444px;
+    height: 100px;
+    margin: 50px 0px -25px 349px;
+    align-items: center;
+    text-align: center;
+}
+.bl7 p {
+    padding-right: 0px;
+    padding-top: 15px;
+    font-size: 36px;
+    font-family: Parangon;
+}
+.b5zagl p {
+    padding-top: 15px;
+    padding-right: 100px;
+    font-size: 36px;
+    font-family: Parangon;
+}
+.b5opis {
+    padding-left: 400px;
+    font-size: 24px;
+    line-height: 48px;
+}
+.gogle {
+    margin-top: 23px;
+    background: url(../img/Google-Partner-Logo-square.png);
+    width: 205px;
+    height: 213px;
+    background-size: cover;
+    margin-bottom: 35px;
+}
+.block52 {
+    margin-left: 177px;
+}
+.block72 {
+    margin-left: 88px;
+}
+.outline {
+    background: url(../img/outline.png);
+    width: 623px;
+    height: 432px;
+}
+.yande {
+    background: url(../img/yandex.png);
+    width: 199px;
+    height: 214px;
+    background-size: cover;
+}
+.block6 {
+    margin-top: 125px;
+}
+.topblock6 {
+    width: 1920px;
+    background: #303263;
+    padding: 18px;
+}
+.ourrr {
+    margin: 0 auto;
+    background: url(../img/OURPROJECTS.png);
+    width: 800px;
+    height: 77px;
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;
+}
+.ourrr p {
+    padding-top: 22px;
+    font-size: 36px;
+    font-family: Parangon;
+    color: white;
+}
+.top6grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.bot6grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.top6grid div:nth-child(1) {
+    background: url(../img/bl6pic1.png);
+    width: 771px;
+    height: 426px;
+    background-repeat: no-repeat;
+    margin-left: 185px;
+}
+.top6grid div:nth-child(2) {
+    background: url(../img/bl6pic2.png);
+    width: 771px;
+    height: 426px;
+    background-size: cover;
+}
+.bot6grid div {
+    width: 393px;
+    height: 343px;
+
+}
+.bot6grid div:nth-child(1) {
+    background: url(../img/bl62pic1.png);
+    margin-left: 185px;
+    background-size: cover;
+}
+.bot6grid div:nth-child(2) {
+    background: url(../img/bl62pic2.png);
+    margin-left: 101px;
+    background-size: cover;
+}
+.bot6grid div:nth-child(3) {
+    background: url(../img/bl62pic3.png);
+    background-size: cover;
+}
+.bot6grid div:nth-child(4) {
+    background: url(../img/bl62pic4.png);
+    margin-left: -97px;
+    background-size: cover;
+}
+.botblock6 {
+    width: 1920px;
+    background: #303263;
+    padding: 18px;
+    text-align: center;
+}
+.butbl6 {
+    margin: 0 auto;
+    background: url(../img/buttonbl6.png);
+    width: 240px;
+    height: 66px;
+    border: none;
+}
+.block8 {
+    margin: 0 auto;
+    background: url(../img/block8b.png);
+    height: 680px;
+    background-size: cover;
+}
+.zag8 {
+    letter-spacing: 0.4mm;
+    padding-top: 50px;
+    padding-bottom: 69px;
+    margin: 0 auto;
+    font-family: Parangon;
+    color: white;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+}
+.grid8 {
+    margin: 0 auto;
+    width: 1440px;
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+}
+.grid8 nav:nth-child(1) {
+    margin-left: 43px;
+}
+.grid8 nav:nth-child(2) {
+    margin-left: -13px;
+}
+.grid8 nav:nth-child(3) {
+    margin-left: -23px;
+}
+.grid8 nav:nth-child(2) .opis8 {
+    margin-left: 22px;
+}
+.top8 {
+    display: flex;
+    align-items: center;
+    padding-bottom: 23px;
+}
+.grid8 nav:nth-child(2) .top8 {
+    padding-bottom: 0px;
+}
+.grid8 nav:nth-child(3) .top8 {
+    padding-bottom: 15px;
+}
+.grid8 nav:nth-child(3) .top8 p {
+    padding-left: 20px;
+}
+.pic18 {
+    background: url(../img/prog.png);
+    width: 69px;
+    height: 48px;
+    background-size: cover;
+}
+.pic28 {
+    background: url(../img/proces.png);
+    width: 67px;
+    height: 67px;
+    background-size: cover;
+}
+.pic38 {
+    background: url(../img/diamond.png);
+    width: 64px;
+    height: 49px;
+    background-size: cover;
+}
+.top8 p {
+    font-family: Parangon;
+    color: white;
+    font-size: 30px;
+    padding-left: 10px;
+}
+.opis8 {
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+}
